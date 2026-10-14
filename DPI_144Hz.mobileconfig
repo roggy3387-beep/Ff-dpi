@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>1.1.1.1</string>
+                    <string>8.8.8.8</string>
+                    <string>9.9.9.9</string>
+                </array>
+                <key>MatchDomains</key>
+                <array>
+                    <string></string>
+                </array>
+            </dict>
+            <key>OnDemandEnabled</key>
+            <integer>1</integer>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                </dict>
+            </array>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.freefire.dnsprofile</string>
+            <key>PayloadUUID</key>
+            <string>F8D5C4A7-6E4A-4B2F-8C69-19E1F3D5A5C2</string>
+            <key>PayloadDisplayName</key>
+            <string>DPI 144Hz - Tối Ưu Hóa (Tốc Độ Cao)</string>
+        </dict>
+    </array>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.freefire.fastdns</string>
+    <key>PayloadUUID</key>
+    <string>2E55A9DF-77B3-4DBA-B5E6-1CE1D2A8473C</string>
+    <key>PayloadDisplayName</key>
+    <string>DPI 144Hz Cấu Hình Mạng</string>
+</dict>
+</plist>
